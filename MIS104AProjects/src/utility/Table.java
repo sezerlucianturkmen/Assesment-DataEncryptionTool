@@ -1,0 +1,104 @@
+package utility;
+
+import java.util.HashMap;
+
+public class Table {
+
+	private static HashMap<Character, Character> mapTable;
+
+	public static HashMap<Character, Character> getTable() {
+		mapTable = new HashMap<Character, Character>();
+		mapTable.put(' ', '1');
+		mapTable.put('!', 'g');
+		mapTable.put('"', 'q');
+		mapTable.put('#', 'T');
+		mapTable.put('$', 'h');
+		mapTable.put('%', 'b');
+		mapTable.put('&', 'a');
+		mapTable.put('ı', 'F');
+		mapTable.put('(', 'M');
+		mapTable.put(')', 'y');
+		mapTable.put('*', 'W');
+		mapTable.put('+', ']');
+		mapTable.put(',', 'O');
+		mapTable.put('-', ')');
+		mapTable.put('.', '%');
+		mapTable.put('/', '$');
+		mapTable.put('0', '-');
+		mapTable.put('1', 'c');
+		mapTable.put('2', 'P');
+		mapTable.put('3', 'n');
+		mapTable.put('4', 'H');
+		mapTable.put('5', '(');
+		mapTable.put('6', '!');
+		mapTable.put('7', 'j');
+		mapTable.put('8', 'ö');
+		mapTable.put('9', 'V');
+		mapTable.put(':', 'z');
+		mapTable.put(';', 't');
+		mapTable.put('<', 'k');
+		mapTable.put('=', ' ');
+		mapTable.put('>', '*');
+		mapTable.put('?', 'S');
+		mapTable.put('@', '5');
+		mapTable.put('A', '0');
+		mapTable.put('B', 'Y');
+		mapTable.put('C', 'r');
+		mapTable.put('D', '@');
+		mapTable.put('E', '.');
+		mapTable.put('F', 'ı');
+		mapTable.put('G', 'x');
+		mapTable.put('H', 's');
+		mapTable.put('I', '6');
+		mapTable.put('J', 'a');
+		mapTable.put('K', '7');
+		mapTable.put('L', '"');
+		mapTable.put('M', 'i');
+		mapTable.put('N', 'v');
+		mapTable.put('O', '4');
+		mapTable.put('P', '^');
+		mapTable.put('Q', ',');
+		mapTable.put('R', 'm');
+		mapTable.put('S', '>');
+		mapTable.put('T', 'N');
+		mapTable.put('U', '[');
+		mapTable.put('V', 'Z');
+		mapTable.put('W', 'L');
+		mapTable.put('X', '2');
+		mapTable.put('Y', '?');
+		mapTable.put('Z', 'C');
+		mapTable.put('[', ';');
+		mapTable.put('ö', 'Q');
+		mapTable.put(']', '3');
+		mapTable.put('^', 'E');
+		mapTable.put('_', 'f');
+		mapTable.put('a', '+');
+		mapTable.put('b', 'd');
+		mapTable.put('c', '#');
+		mapTable.put('d', 'e');
+		mapTable.put('e', 'D');
+		mapTable.put('f', '/');
+		mapTable.put('g', 'R');
+		mapTable.put('h', '&');
+		mapTable.put('i', '9');
+		mapTable.put('j', 'A');
+		mapTable.put('k', 'p');
+		mapTable.put('l', 'X');
+		mapTable.put('m', 'G');
+		mapTable.put('n', 'U');
+		mapTable.put('o', 'w');
+		mapTable.put('p', 'u');
+		mapTable.put('q', ':');
+		mapTable.put('r', '8');
+		mapTable.put('s', 'K');
+		mapTable.put('t', '_');
+		mapTable.put('u', 'o');
+		mapTable.put('v', '=');
+		mapTable.put('w', 'l');
+		mapTable.put('x', 'J');
+		mapTable.put('y', 'B');
+		mapTable.put('z', '<');
+		return mapTable;
+	}
+
+}
